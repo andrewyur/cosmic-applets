@@ -2,9 +2,11 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
 mod app;
-mod bluetooth;
 mod config;
 mod localize;
+mod device;
+mod worker;
+mod agent;
 
 use crate::localize::localize;
 
